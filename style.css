@@ -13,7 +13,7 @@ body{
     background-image: url(./assets/images/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1300px,100vw);
+    background-size: max(1300px,100%);
     height: 700px;
     position: relative;
 }
@@ -126,10 +126,10 @@ nav button{
 }
 .secImg video{
     position: absolute;
-    top: 35px;
+    top: 55px;
     right: 0;
-    height: 300px;
-    width: 400px;
+    height: 50%;
+    width: 100%;
 }
 .first>div{
     display: flex;
@@ -196,14 +196,16 @@ footer{
     gap: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
 }
 .number{
     color: white;
-    width: 1170px;
-    margin-left: 190px;
-    margin-top: 50px;
+    /* width: 1170px; */
+    /* margin-left: 190px; */
+    
     opacity: 70%;
+    text-align: left;
 }
 ul a{
     list-style: none;
@@ -215,11 +217,10 @@ a{
 .final{
     color: white;
     margin-bottom: 72px;
-    width: 1170px;
-    margin-left: 190px;
     opacity: 70%;
 }
 .btn-last{
-    width: 1170px;
-    margin-left: 190px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
