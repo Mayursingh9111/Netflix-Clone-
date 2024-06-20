@@ -127,10 +127,11 @@ nav button{
 .secImg video{
     position: absolute;
     top: 55px;
-    right: 0;
-    height: 50%;
+    right: 0%;
+    height: 55%;
     width: 100%;
 }
+
 .first>div{
     display: flex;
     flex-direction: column;
